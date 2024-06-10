@@ -32,6 +32,9 @@ module.exports = {
         "300":"#495883",
         "200":"#8690AC",
         "100":"#C2C7D6"
+      },
+      "grey":{
+        "400":"#15181E"
       }
     },
     spacing:{
@@ -59,9 +62,13 @@ module.exports = {
       "xl":"21px",
       "2xl":"28px",
       "3xl":"38px",
-      "4xl":"51px",
+      "4xl":["51px","1.15"],
       "5xl":"67px",
       "6xl":"90px"
+    },
+    backgroundImage:{
+      "lupa":"url('../imgs/search.svg')",
+      "usuario":"url('../imgs/usuario.svg')"
     },
     extend: {},
   },

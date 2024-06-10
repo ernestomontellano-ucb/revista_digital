@@ -1,13 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="output.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404 - Revista Digital</title>
+	<link rel="stylesheet" href="css/output.css">
 </head>
+
 <body>
+	<div class="gran_contenedor">
+		<header class="flex justify-end p-6">
+			<div class="searchbar flex content-center">
+				<input id="buscador" class="block bg-mostaza-100 rounded-full py-1 text-sm px-4" type="text"
+					placeholder="Busca un artículo...">
+				<button class="block ml-3 bg-lupa bg-no-repeat indent-[-9999px] w-7 h-7 bg-cover">Search</button>
+			</div>
+			<div class="user ml-6">
+				<a href="perfil.html" class="block bg-usuario bg-no-repeat indent-[-9999px] w-7 h-7 bg-cover">Ir al
+					perfil</a>
+			</div>
+		</header>
+		<div class="slide1 h-screen p-11">
+			<div class="flex mb-9 justify-between">
+				<div class="txt basis-1/2">
+					<h2 class="text-4xl font-black text-rosa-300 mb-9">
+						Descubre el Arte del Diseño Explora, Inspírate y Crea
+					</h2>
+					<p class="text-2xl text-rosa-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+						vitae est vitae elit feugiat elementum
+						sed nec mi. In tempor vulputate libero eu gravida. Pellentesque habitant morbi tristique
+						senectus et
+						netus et malesuada fames ac turpis egestas. </p>
+				</div>
+				<div class="identidad basis-auto text-center" >
+					<img src="imgs/identidad.svg" class="align-center" alt="">
+				</div>
+			</div>
+			<div class="cont_btns flex justify-center gap-7">
+				<button class="bg-grey-400 text-mostaza-400 px-7 py-4">Empieza tu viaje creativo</button>
+				<button class="bg-grey-400 text-mostaza-400 px-7 py-4">Random: Selección aleatoria</button>
+			</div>
+		</div>
+		<div class="slide2 h-screen p-11">
+			<h3 class="text-4xl font-black text-mostaza-300 mb-9">Secciones</h3>
+			<div class="cont_secciones h-5/6 flex justify-between gap-8">
+				<div class="seccion bg-azul-400 overflow-hidden rounded-3xl">
+					<img src="imgs/mundo.jpeg" class="h-full w-auto" alt="">
+				</div>
+				<div class="seccion bg-azul-400 overflow-hidden rounded-3xl">
+					<img src="imgs/informacion.jpeg" class="h-full w-auto" alt="">
+				</div>
+				<div class="seccion bg-azul-400 overflow-hidden rounded-3xl">
+					<img src="imgs/videojuegos.jpeg" class="h-full w-auto" alt="">
+				</div>
+				<div class="seccion bg-azul-400  overflow-hidden rounded-3xl">
+					<img src="imgs/proceso_creativo.jpeg" class="h-full w-auto" alt="">
+				</div>
 
-
+			</div>
+		</div>
+	</div>
 </body>
 </html>
